@@ -1,16 +1,27 @@
---[[
 
 
 
 
 
 
-ta olhando oq truta???????????? o cdgo e open source e ainda com a doc 100% em portugues porra so usa la 
 
 
 
 
-]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 local a=cloneref or(function(...)return...end)
 
@@ -114,11 +125,11 @@ end
 
 local s={
 Information={
-Version="v2.0.2",
-GitHubOwner="azuriondeve"
+Version="v2.0.1",
+GitHubOwner="tlredz"
 },
 Default={
-Theme="Purple",
+Theme="Darker",
 UISize=UDim2.fromOffset(550,380),
 TabSize=160
 },
@@ -2827,12 +2838,6 @@ ai.SetContent=ai.SetDescription
 ai.SetDesc=ai.SetDescription
 
 function aj:CreateMobileMinimizer(av)
-if av.CornerRadius then
-av.Corner={
-CornerRadius=UDim.new(av.CornerRadius,0)
-}
-av.CornerRadius=nil
-end
 local aw=E("ImageButton",I,{
 Size=UDim2.fromOffset(35,35),
 Position=UDim2.fromScale(0.17,0.28),
@@ -2857,12 +2862,6 @@ end
 if av.Stroke then
 av.Elements.Stroke=av.Stroke
 av.Stroke=nil
-end
-
-if ar then
-E("UICorner",aw,{
-CornerRadius=UDim.new(ar,0)
-})
 end
 
 D.Draggable(aw,ad,0.5)
