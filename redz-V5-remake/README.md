@@ -299,4 +299,3 @@ Library:SetUIScale(1.0)
 ```
 
 
-Só mandar 💅
